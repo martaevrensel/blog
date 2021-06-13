@@ -64,6 +64,10 @@ table {
 
 /* ==== BASE STYLES ==== */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Halant, 'Times New Roman', serif;
   color: #333;
@@ -89,4 +93,15 @@ h2 {
   font-size: 1.125rem;
   color: #8c8e9b;
   letter-spacing: 0.125rem;
+}
+
+.picture {
+  width: 100%;
+}
+
+/* ==== LAYOUT STYLES ==== */
+
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
 }
