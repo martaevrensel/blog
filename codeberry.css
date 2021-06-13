@@ -127,6 +127,7 @@ img,
     background-color: #42444e;
 }
 
+
 /* Primary Content Wrapper Styles */
 
 @media (min-width: 768px) {
@@ -146,6 +147,25 @@ img,
 			height: 100%;
 			width: 33.3%;
 		}
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		width: 20.625%;
+	}
+
+}
+
+
+@media (min-width: 1025px) {
+
+	.primary-content {
+		float: none;
+		position: absolute;
+        left: 20.625%;
+	}
+
 }
 
 /* Article Styles */
